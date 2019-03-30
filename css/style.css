@@ -83,7 +83,7 @@ h1, h2, h3 {
 
 @media (min-width: 600px) {
   .page {
-    grid-template-columns: 2fr 5fr;
+    grid-template-columns: 3fr 7fr;
     grid-template-areas: 
       "grid-name    grid-name"
       "grid-side    grid-main";
