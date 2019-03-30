@@ -89,3 +89,75 @@ h1, h2, h3 {
       "grid-side    grid-main";
   }
 }
+
+
+/* Text Styles */
+
+.section-block {
+  padding-bottom: 10px;
+}
+
+.section-title {
+  border-bottom: 3px solid silver;
+  height: 30px;
+}
+
+.work-experience-title {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+ul.work-experience-bullets {
+  padding-left: 30px
+}
+
+h1 {
+  font-size: 165%;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 125%;
+  letter-spacing: 2px;
+}
+
+h3 { 
+  font-size: 95%;
+  letter-spacing: 1px;  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.multi-line-lines, .work-experience-title-lines, .work-experience-subtitle-lines {
+    margin: 0;
+    padding: 0;
+}
+
+.work-experience-subtitle-lines {
+  font-size: 90%;
+}
+
+p, li {
+  line-height: 25px;
+  font-size: 95%; 
+}
+
+ul {
+  padding-left: 17px
+}
+
+li:first-child {
+  margin-top: 0;
+}
+
+li.multi-line-bullets {
+  margin-top: 20px;
+}
+
+li.single-line-bullets {
+  margin-top: 10px;
+}
+
