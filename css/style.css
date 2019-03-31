@@ -30,7 +30,8 @@ h1, h2, h3 {
     width: 100%;
     height: 50px;
     margin-bottom: 25px;
-    background: #708090;
+    background: #FFFFFF;
+    border-bottom: 1px solid #708090
 }
 
 .footer {
@@ -41,7 +42,8 @@ h1, h2, h3 {
     width: 100%;
     height:50px;
     margin-top: 25px;
-    background: #708090;
+    background: #FFFFFF;
+    border-top: 1px solid #708090
 }
 
 .header-content, .footer-content  {
@@ -52,6 +54,21 @@ h1, h2, h3 {
 
 .contact {
     text-align: center;  
+}
+
+.name {
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center; 
+}
+
+.name img {
+  border: 3px solid #708090;
+  border-radius: 50%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .name {
