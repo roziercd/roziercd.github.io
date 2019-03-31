@@ -50,14 +50,6 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
-.logo {
-    float: left;
-}
-
-.language {
-    float: right;
-}
-
 .contact {
     text-align: center;  
 }
@@ -161,3 +153,35 @@ li.single-line-bullets {
   margin-top: 10px;
 }
 
+
+
+
+
+
+
+
+
+.header-content {
+  padding-top: 15px;
+}
+
+.header-content ul {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+}
+
+.header-logo, .header-name {
+  float: left;
+  padding-right: 10px;
+}
+
+.header-name {
+  font-family: 'Patua One', serif;
+  font-size: 125%;
+}
+
+.header-united-states, .header-china {
+  float: right;
+  padding-left: 10px;
+}
