@@ -12,15 +12,15 @@ h1, h2, h3 {
 .page {
     max-width: 800px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding-top: 75px;
+    padding-bottom: 50px;
 }
 
-.page > * {
+/*.page > * {
     border: 1px solid #708090;
     background-color: #ffffff;
     border-radius: 5px;
-    padding: 10px;
-}
+}*/
 
 .header {
     position: fixed;
@@ -83,11 +83,13 @@ h1, h2, h3 {
 
 .page {
   display: grid;
-  grid-gap: 20px;
+  /*grid-gap: 20px;*/
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
   grid-template-areas: 
     "grid-name"
     "grid-main"
-    "grid-side"   ;
+    "grid-side";
 }
 
 @media (min-width: 600px) {
@@ -99,11 +101,13 @@ h1, h2, h3 {
   }
 }
 
-
-/* Text Styles */
-
 .section-block {
   padding-bottom: 10px;
+  border: 1px solid #708090;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .section-title {
@@ -169,14 +173,6 @@ li.multi-line-bullets {
 li.single-line-bullets {
   margin-top: 10px;
 }
-
-
-
-
-
-
-
-
 
 .header-content {
   padding-top: 15px;
