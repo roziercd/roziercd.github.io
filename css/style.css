@@ -13,7 +13,7 @@ h1, h2, h3 {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 75px;
-    padding-bottom: 0px;  /* Would be 50px with footer */
+    padding-bottom: 50px;
 }
 
 /*.page > * {
@@ -198,37 +198,3 @@ li.single-line-bullets {
   float: right;
   padding-left: 10px;
 }
-
-
-/* Popup CSS Below (WIP)
-
-    <div id="popup-bg">
-        <div id="popup-content">
-            <div id="popup-close-button">
-
-#popup-bg{
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#popup-content{
-  position: fixed;
-  bottom: 60px;
-  right: 20px;
-  height: 150px;
-  width: 200px;
-  background-color: #FFFFFF;
-  border: 1px solid #708090;
-  border-radius: 5px;
-
-}
-
-#popup-close-button{
-
-}
-
-*/
